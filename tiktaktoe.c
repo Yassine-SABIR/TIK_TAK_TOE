@@ -1,4 +1,4 @@
-//tiktaktoe
+//TIK TAK TOE SABIR Yassine
 #include<stdio.h>
 #include<stdlib.h>
 #include<windows.h>
@@ -87,7 +87,7 @@ int main(){
                 T[i][j]='X';
             }
             else{
-                printf("tal3ab baraka mn lbssala\n");
+                printf("Vous devriez jouer\n");
                 c--;
             };
         }
@@ -99,7 +99,7 @@ int main(){
                 T[i][j]='O';
             }
             else{
-                printf("tal3ab baraka mn lbssala\n");
+                printf("Vous devriez jouer\n");
                 c--;
             };
         };
@@ -110,7 +110,7 @@ int main(){
         if (c%2==1){printf("le joueur gagnant est : %s",P2);}
         else{printf("le joueur gagnant est : %s",P1);};
     }
-    else{printf("it's a tie");};
+    else{printf("Égalité");};
     Sleep(5000);
     return 0;
 }
